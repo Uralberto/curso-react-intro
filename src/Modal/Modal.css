@@ -1,12 +1,13 @@
-.Modal {
+.ModalBackground {
     
-        background-color: #b5e9c6;
-        position: relative;
+        background-color: rgba(32, 35, 41, .8);
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 24px;
-        box-shadow: 0 5px 50px rgba(32, 35, 41, .15);
-        height: 100px;
-
+        color: #ffffff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
 }
